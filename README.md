@@ -23,3 +23,21 @@ A string de conexão para o SQL Server foi configurada utilizando as informaçõ
 "ConnectionStrings": {
     "DefaultConnection": "Server=seu_servidor;Database=sua_base_de_dados;User Id=seu_usuario;Password=sua_senha;"
 }
+```
+
+## Executando a Aplicação
+
+1. Clonar o repositório:
+
+git clone https://github.com/seu_usuario/API_.NET_EXEMPLO.git
+cd API_.NET_EXEMPLO
+
+2. Restaurar os pacotes:
+dotnet restore
+
+3. Atualizar o banco de dados:
+Execute o comando abaixo para aplicar as migrações e atualizar o banco de dados:
+dotnet ef database update
+
+4. Iniciar a aplicação:
+dotnet run
