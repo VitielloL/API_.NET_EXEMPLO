@@ -27,17 +27,29 @@ A string de conexão para o SQL Server foi configurada utilizando as informaçõ
 
 ## Executando a Aplicação
 
-1. Clonar o repositório:
+1. Clone este repositório:
+    ```bash
+    git clone https://github.com/seu_usuario/API_.NET_EXEMPLO.git
+    ```
 
-git clone https://github.com/seu_usuario/API_.NET_EXEMPLO.git
-cd API_.NET_EXEMPLO
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd API_.NET_EXEMPLO
+    ```
 
-2. Restaurar os pacotes:
-dotnet restore
+3. Restaurar os pacotes:
+    ```bash
+    dotnet restore
+    ```
 
-3. Atualizar o banco de dados:
-Execute o comando abaixo para aplicar as migrações e atualizar o banco de dados:
-dotnet ef database update
+4. Atualizar o banco de dados:
+Execute o comando abaixo para aplicar as migrações e atualizar o banco de dados
+    ```bash
+    dotnet ef database update
+    ```
 
-4. Iniciar a aplicação:
-dotnet run
+5. Iniciar a aplicação:
+Execute o comando abaixo para aplicar as migrações e atualizar o banco de dados
+    ```bash
+    dotnet run
+    ```
